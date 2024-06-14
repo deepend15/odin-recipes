@@ -1,0 +1,23 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: rgb(245, 254, 255);
+    line-height: 1.5;
+    color: darkblue;
+}
+
+.header {
+    color: rgb(0, 0, 72);
+}
+
+.center {
+    text-align: center;
+}
+
+.tag {
+    font-style: italic;
+    font-size: 15px;
+}
+
+a {
+    color:blue;
+}
