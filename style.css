@@ -5,6 +5,16 @@
     color: darkblue;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .header {
     color: rgb(0, 0, 72);
 }
@@ -20,4 +30,40 @@
 
 a {
     color:blue;
+}
+
+.recipe-box {
+    width: 350px;
+    height: 280px;
+    margin: 40px auto 0;
+    background-color: rgb(255, 255, 242);
+    border-left: 10px ridge lightgray;
+    border-top: 2px dotted lightgray;
+    border-right: 2px dotted lightgray;
+    border-bottom: 2px dotted lightgray;
+    padding: 5px;
+}
+
+.recipe-box ul {
+    background-color: rgb(255, 255, 248);
+    list-style-type: circle;
+    margin-top: 20px;
+    padding-left: 35px;
+}
+
+.recipe-box ul a {
+    background-color: rgb(255, 255, 242);
+}
+
+.chili,
+.egg-sauce,
+.zucchini {
+    font-size: 17px;
+    padding: 4px;
+    background-color: rgb(255, 255, 242);
+}
+
+.chili,
+.egg-sauce {
+    margin-bottom: 15px;
 }
